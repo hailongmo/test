@@ -8,10 +8,11 @@
 </head>
 
 <body>
-  <div>123</div>
+  <div>12345</div>
 </body>
 <script>
-  window.location.href = "https://www.baidu.com"
+  window.location.href = "https://www.baidu.com" + '?timestamp=' + new Date().getTime() + Math.random();
+  // window.open("https://www.baidu.com")
 </script>
 
 </html>
